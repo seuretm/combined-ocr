@@ -1,0 +1,30 @@
+{
+    "filename": "models/all_heavy_aug",
+    "base": null,
+    "training": [
+        "data-aug/train/single/antiqua",
+        "data-aug/train/single/bastarda",
+        "data-aug/train/single/fraktur",
+        "data-aug/train/single/gotico-antiqua",
+        "data-aug/train/single/greek",
+        "data-aug/train/single/hebrew",
+        "data-aug/train/single/italic",
+        "data-aug/train/single/rotunda",
+        "data-aug/train/single/schwabacher",
+        "data-aug/train/single/textura"
+    ],
+    "validation": [
+        "data/valid/single/antiqua",
+        "data/valid/single/bastarda",
+        "data/valid/single/fraktur",
+        "data/valid/single/gotico-antiqua",
+        "data/valid/single/italic",
+        "data/valid/single/rotunda",
+        "data/valid/single/schwabacher",
+        "data/valid/single/textura"
+    ],
+    "augmentations": [
+        ["ColorJitter", 0.2, 0.2],
+        ["Affine", 0.0, 5.0]
+    ]
+}

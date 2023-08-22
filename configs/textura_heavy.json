@@ -1,0 +1,11 @@
+{
+    "filename": "models/textura_ft_heavy_aug",
+    "base": "models/all_heavy_aug",
+    "training": "data-aug/train/single/textura",
+    "validation": "data-aug/valid/single/textura",
+    "lr": 0.0001,
+    "augmentations": [
+        ["ColorJitter", 0.2, 0.2],
+        ["Affine", 0.0, 5.0]
+    ]
+}

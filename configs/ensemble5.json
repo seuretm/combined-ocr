@@ -1,0 +1,20 @@
+{
+    "filename": "ensembles/5",
+    "base":  null,
+    "training": [
+        "data-ensemble/train/0",
+        "data-ensemble/train/1",
+        "data-ensemble/train/2",
+        "data-ensemble/train/3",
+        "data-ensemble/train/4",
+        "data-ensemble/train/6",
+        "data-ensemble/train/7"
+    ],
+    "validation": [
+        "data-ensemble/train/5"
+    ],
+    "augmentations": [
+        ["ColorJitter", 0.2, 0.2],
+        ["Affine", 0.0, 5.0]
+    ]
+}

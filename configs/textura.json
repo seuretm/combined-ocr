@@ -1,0 +1,11 @@
+{
+    "filename": "models/textura_ft_light_aug",
+    "base": "models/all_light_aug",
+    "training": "data/train/single/textura",
+    "validation": "data/valid/single/textura",
+    "lr": 0.001,
+    "augmentations": [
+        ["ColorJitter", 0.4, 0.4],
+        ["Affine", 1.0, 5.0]
+    ]
+}
